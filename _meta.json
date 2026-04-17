@@ -1,0 +1,29 @@
+{
+  "name": "douyin-title-generator",
+  "version": "1.0.0",
+  "description": "抖音标题生成器 - 基于用户提供的爆款标题示例，分析模式并生成新的病毒式传播标题",
+  "keywords": ["抖音", "标题", "爆款", "短视频", "内容创作"],
+  "author": "OpenClaw Assistant",
+  "license": "MIT",
+  "homepage": "",
+  "repository": "",
+  "dependencies": {
+    "python": ">=3.6",
+    "jieba": "^0.42.1"
+  },
+  "triggers": [
+    "标题",
+    "爆款",
+    "抖音标题",
+    "短视频标题",
+    "热门标题",
+    "标题生成",
+    "标题建议"
+  ],
+  "integration": {
+    "douyin-profit-calculator": {
+      "shared_data_dir": true,
+      "cross_skill_triggers": true
+    }
+  }
+}
